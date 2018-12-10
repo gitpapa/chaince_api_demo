@@ -5,7 +5,7 @@
 package com.chaince;
 import com.chaince.support.ChainceApiUtils;
 import com.chaince.support.HttpClientUtil;
-import org.apache.commons.lang.StringUtils;
+import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import java.net.MalformedURLException;

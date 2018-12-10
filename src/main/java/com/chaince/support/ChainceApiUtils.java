@@ -4,7 +4,7 @@
  */
 package com.chaince.support;
 
-import org.apache.commons.lang.StringUtils;
+import org.apache.commons.lang3.StringUtils;
 
 /**
  * @author zhangwd <a href="mailto:mail_zwd@163">zhang Wendong</a>
