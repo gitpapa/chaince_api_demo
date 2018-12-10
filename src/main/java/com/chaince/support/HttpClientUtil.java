@@ -7,7 +7,6 @@ package com.chaince.support;
 import java.net.URI;
 import java.util.HashMap;
 import java.util.Map;
-import com.chaince.ChainceApiClient;
 import org.apache.http.Header;
 import org.apache.http.HttpStatus;
 import org.apache.http.client.methods.CloseableHttpResponse;
@@ -31,7 +30,7 @@ import org.slf4j.LoggerFactory;
  * @version $Id$
  */
 public class HttpClientUtil {
-    private static final Logger log = LoggerFactory.getLogger(ChainceApiClient.class);
+    private static final Logger log = LoggerFactory.getLogger(HttpClientUtil.class);
     private static final String ENCODING = "UTF-8";
     /**
      * sendPost
